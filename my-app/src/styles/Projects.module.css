@@ -1,0 +1,45 @@
+.all {
+    color: #696969;
+    padding-top: 2%;
+  }
+  
+  /* .projects_box {
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    transition: transform .2s;
+  }
+
+  .project_box:hover{
+    transform:scale(.8);
+  } */
+
+  .outline {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  .zoom {
+    background-color: white;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+    /* height: 100%; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: #167c9e;
+  }

@@ -1,0 +1,24 @@
+.all {
+    color: #696969;
+    padding-bottom: 8%;
+    padding-top: 2%;
+    text-align: left;}
+
+.about_box {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+}
+
+.left_text {
+    text-align: left;
+    margin-left: 10%;
+}
+
+h2 {
+    font-size: 20px;
+}
