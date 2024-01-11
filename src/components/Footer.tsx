@@ -1,17 +1,19 @@
 import styles from "../styles/Footer.module.css";
+import linkImage from "../images/linkedin.png";
+import gitImage from "../images/git.png";
+
 const Footer = () => {
   return (
     <div className={styles.all}>
-      <p>Let's Connect</p>
-      <img
-        style={{
-          width: "20%",
-          height: "20%",
-          marginLeft: "5%",
-          display: "inline",
-        }}
-        src="../../public/pfp.png"
-      />
+      <p style={{ marginRight: "2%" }}>Let's Connect</p>
+      <div className={styles.images}>
+        <a target="_blank" href="https://www.linkedin.com/in/sana-merchant">
+          <img height="30px" src={linkImage} alt="Profile Picture" />
+        </a>
+      </div>
+      <a target="_blank" href="https://github.com/sanamerchant">
+        <img height="30px" src={gitImage} alt="Profile Picture" />
+      </a>
     </div>
   );
 };

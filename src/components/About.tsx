@@ -1,10 +1,10 @@
 import styles from "../styles/About.module.css";
 
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Button, Link } from "@mui/material";
 
 const About = () => {
   return (
-    <div className={styles.all}>
+    <div id="Projects" className={styles.all}>
       <Box className={styles.about_box}>
         <Grid container spacing={3}>
           <Grid item xs={6}>
@@ -26,6 +26,20 @@ const About = () => {
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
                 blah blah blah
               </p>
+              <br />
+              <a href="#projects">
+                <Button
+                  style={{
+                    backgroundColor: "#167c9e",
+                    color: "white",
+                    fontSize: "15px",
+                    padding: "2%",
+                  }}
+                  className={styles.button}
+                >
+                  Projects
+                </Button>
+              </a>
             </div>
           </Grid>
           <Grid item xs={6}>
