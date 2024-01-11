@@ -16,7 +16,6 @@ function App() {
         backgroundColor: "#F0F0F0",
       }}
     >
-      <NavBar />
       <About />
       <Projects />
       <Footer />
