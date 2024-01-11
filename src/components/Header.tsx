@@ -4,7 +4,6 @@ import gitImage from "../images/git.png";
 const Header = () => {
   return (
     <div className={styles.all}>
-      <p style={{ marginRight: "2%" }}>Let's Connect</p>
       <div className={styles.images}>
         <a target="_blank" href="https://www.linkedin.com/in/sana-merchant">
           <img height="30px" src={linkImage} alt="Profile Picture" />
