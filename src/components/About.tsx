@@ -20,15 +20,19 @@ const About = () => {
               </p>
               <p style={{ fontSize: "20px" }}>
                 I'm a sophomore studying Computer Science at Brown University.
-                Blah blah blah blah blah blah blah blah blah blah blah blah blah
-                blah blah blah blah blah blah blah blah blah blah blah blah blah
-                blah blah blah
+                Experienced in full-stack development, I’m also interested in AI
+                and its applications. While my academic courses have provided a
+                solid foundation, much of my expertise has been honed through
+                independent exploration fueled by curiosity.
               </p>
               <p style={{ fontSize: "20px" }}>
-                I'm a sophomore studying Computer Science at Brown University.
-                Blah blah blah blah blah blah blah blah blah blah blah blah blah
-                blah blah blah blah blah blah blah blah blah blah blah blah blah
-                blah blah blah
+                I’m passionate about leveraging technology to address societal
+                challenges. I take initiative with my education, supplementing
+                my Brown coursework with extracurricular activities that not
+                only enhance my skill set but also broaden my perspectives. As I
+                continue to navigate this dynamic field, I am excited about the
+                possibilities that lie ahead and the impact technology can have
+                on shaping a better future.
               </p>
               <br />
               <ScrollLink to="projects" smooth={true} duration={500}>
@@ -69,7 +73,16 @@ const About = () => {
             </div>
           </Grid>
           <Grid item xs={6}>
-            <div style={{ marginLeft: "20%", lineHeight: 0.4 }}>
+            <div style={{ marginLeft: "30%", lineHeight: 0.4 }}>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
               <br />
               <br />
               <br />
@@ -80,7 +93,13 @@ const About = () => {
                   </div>
                   <div className={styles.timeline_item_content}>
                     <br />
-                    <h2 className={styles.headerlink}>Full Stack at Brown</h2>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      target="_blank"
+                      href="https://github.com/fullstackatbrown"
+                    >
+                      <h2 className={styles.headerlink}>Full Stack at Brown</h2>
+                    </a>
                     <p>Website Developer</p>
                     <p>September 2023 - Present</p>
                     <br />
@@ -119,7 +138,7 @@ const About = () => {
                     <a
                       style={{ textDecoration: "none" }}
                       target="_blank"
-                      href="https://2024.hackatbrown.org"
+                      href="https://ucentralasia.org/"
                     >
                       <h2 className={styles.headerlink}>
                         University of Central Asia
@@ -146,7 +165,7 @@ const About = () => {
                     <a
                       style={{ textDecoration: "none" }}
                       target="_blank"
-                      href="https://2024.hackatbrown.org"
+                      href="https://arvasit.com/"
                     >
                       <h2 className={styles.headerlink}>Arvasit Technolabs</h2>
                     </a>

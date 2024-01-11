@@ -16,6 +16,7 @@ function App() {
         backgroundColor: "#F0F0F0",
       }}
     >
+      {/* <Header /> */}
       <About />
       <Projects />
       <Footer />
