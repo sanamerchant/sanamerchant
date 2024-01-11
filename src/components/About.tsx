@@ -1,6 +1,6 @@
 import styles from "../styles/About.module.css";
-
 import { Box, Grid, Button, Link } from "@mui/material";
+import { Link as ScrollLink } from "react-scroll";
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
                 blah blah blah
               </p>
               <br />
-              <a href="#projects">
+              <ScrollLink to="projects" smooth={true} duration={500}>
                 <Button
                   style={{
                     backgroundColor: "#167c9e",
@@ -39,7 +39,7 @@ const About = () => {
                 >
                   Projects
                 </Button>
-              </a>
+              </ScrollLink>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -47,11 +47,22 @@ const About = () => {
               <br />
               <br />
               <br />
-              {/* <br />
-              <br /> */}
-              {/* <br /> */}
-              {/* <br /> */}
-              <h2 style={{ color: "#167c9e" }}>University of Central Asia</h2>
+
+              <div className={styles.timeline}>
+                <div className={styles.container_left}>
+                  <div className={styles.content}>
+                    <h2>2017</h2>
+                    <p>Lorem ipsum..</p>
+                  </div>
+                </div>
+                <div className={styles.container_right}>
+                  <div className={styles.content}>
+                    <h2>2016</h2>
+                    <p>Lorem ipsum..</p>
+                  </div>
+                </div>
+              </div>
+              {/* <h2 style={{ color: "#167c9e" }}>University of Central Asia</h2>
               <p>Data Analyst</p>
               <p>June - October 2023</p>
               <br />
@@ -75,7 +86,7 @@ const About = () => {
                   <b>here</b>
                 </a>{" "}
                 to view my resume
-              </p>
+              </p> */}
             </div>
           </Grid>
         </Grid>

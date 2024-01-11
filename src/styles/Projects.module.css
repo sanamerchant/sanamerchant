@@ -17,10 +17,6 @@
   transform:scale(.8);
 } */
 
-#example {
-  scroll-behavior: smooth;
-}
-
 .outline {
   margin-left: 10%;
   margin-right: 10%;
