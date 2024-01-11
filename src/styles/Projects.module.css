@@ -36,9 +36,15 @@
   margin-right: 2%;
   border-radius: 30px;
   transition: transform .2s;
+  align-items: center;
+  justify-content: center;
 }
 
 .zoom:hover {
   transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 color: #167c9e;
+}
+
+.project_title {
+  margin-top: 4%;
 }
