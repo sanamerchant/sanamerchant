@@ -8,19 +8,17 @@ import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 
-const App = () => {
-  return (
-    <div
-      className="App"
-      style={{
-        backgroundColor: "#F0F0F0",
-      }}
-    >
-      <Header />
-      <About />
-      <Projects />
-    </div>
-  );
-};
+const App = () => (
+  <div
+    className="App"
+    style={{
+      backgroundColor: "#F0F0F0",
+    }}
+  >
+    <Header />
+    <About />
+    <Projects />
+  </div>
+);
 
 export default App;
