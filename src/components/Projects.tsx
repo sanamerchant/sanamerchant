@@ -25,7 +25,26 @@ const Projects = () => {
                 <h2 className={styles.project_title}>
                   NLP for “Fake News” Classification
                 </h2>
-                <p style={{ textAlign: "left", padding: "15px" }}>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  Python
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
                   Applied SVM, kNN, Naive Bayes, Decision Tree, Adaboost, &
                   Bagging, achieving 89.58% accuracy to classify articles as
                   real/fake news.
@@ -48,7 +67,26 @@ const Projects = () => {
               <Box className={styles.zoom}>
                 <img height="175px" src={shellImage} alt="Shell Project" />
                 <h2 className={styles.project_title}>Shell</h2>
-                <p style={{ textAlign: "left", padding: "15px" }}>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  C
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
                   Implemented a custom Unix shell using C with features such as
                   command parsing, employing foreground and background
                   processing, handling signals, and file redirection.
