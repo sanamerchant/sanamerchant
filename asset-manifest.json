@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sanamerchant.github.io/static/css/main.dbc331c1.css",
+    "main.js": "/sanamerchant.github.io/static/js/main.6eada7d4.js",
+    "static/media/seam.png": "/sanamerchant.github.io/static/media/seam.f40a4b51db0bfa582468.png",
+    "static/media/hack.png": "/sanamerchant.github.io/static/media/hack.13fa24548daa22f20902.png",
+    "static/media/nlp.png": "/sanamerchant.github.io/static/media/nlp.b2bbdccab1ddf91b5ecd.png",
+    "static/media/uca.png": "/sanamerchant.github.io/static/media/uca.9750773aade7e5abf607.png",
+    "static/media/arvasit.png": "/sanamerchant.github.io/static/media/arvasit.26e98eec4cd2d411749d.png",
+    "static/media/shell.png": "/sanamerchant.github.io/static/media/shell.36ee0ea8cf8ed9c576db.png",
+    "static/media/db.png": "/sanamerchant.github.io/static/media/db.6cb0bd3104c1ae48c997.png",
+    "static/media/search.png": "/sanamerchant.github.io/static/media/search.9a53ce5d5c5a11e50906.png",
+    "static/media/planner.png": "/sanamerchant.github.io/static/media/planner.eef4dbd444ce837a680b.png",
+    "static/media/tree.png": "/sanamerchant.github.io/static/media/tree.4a102b24da24805331fd.png",
+    "static/media/interpreter.png": "/sanamerchant.github.io/static/media/interpreter.1fc15b3a67ae6b508464.png",
+    "static/media/fsab.png": "/sanamerchant.github.io/static/media/fsab.2424da51cca5da9b1528.png",
+    "static/media/git.png": "/sanamerchant.github.io/static/media/git.3e5c41dc6542f98de829.png",
+    "index.html": "/sanamerchant.github.io/index.html",
+    "main.dbc331c1.css.map": "/sanamerchant.github.io/static/css/main.dbc331c1.css.map",
+    "main.6eada7d4.js.map": "/sanamerchant.github.io/static/js/main.6eada7d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbc331c1.css",
+    "static/js/main.6eada7d4.js"
+  ]
+}
