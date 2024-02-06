@@ -7,6 +7,7 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { Skills } from "./components/Skills";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
     >
       <Header />
       <About />
+      {/* <Skills /> */}
       <Projects />
       <Footer />
     </div>

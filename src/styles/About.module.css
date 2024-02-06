@@ -7,8 +7,8 @@
 }
 
 .about_box {
-    margin-top: 5%;
-    margin-left: 8%;
+    margin-top: 3%;
+    margin-left: 6%;
     margin-right: 8%;
     /* background-color: white; */
     padding-top: 1%;
@@ -37,6 +37,9 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+.button:hover {
+    color: pink
+}
 
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -64,11 +67,26 @@ body {
 	font-family: "Outfit", sans-serif;
 } 
 
-button,
+/* button, */
 input,
 select,
 textarea, a {
 	font: inherit;
+}
+
+button {
+    /* backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    // width: "20%", */
+                    color: green,
 }
 
 
@@ -83,6 +101,7 @@ textarea, a {
 	border-left: 2px solid #696969;
 	font-size: 1.125rem;
     list-style-type: none;
+    
 }
 
 .timeline_item {

@@ -1,0 +1,25 @@
+.all {
+    color: #696969;
+    padding-top: 1%;
+    
+    background-color: white;
+    margin: 0;
+    padding-bottom: 4%;
+  }
+
+  button {
+	font: inherit;
+    /* background-color: white;
+          color: #167c9e;
+          border-radius: 10%;
+          border-width: 1px;
+          border-color: #167c9e;
+          border-style: solid;
+          font-size: 15px;
+          padding: 2%;
+          font-family: Outfit;
+          width: 20%; */
+}
+button:hover {
+    color: pink;
+}

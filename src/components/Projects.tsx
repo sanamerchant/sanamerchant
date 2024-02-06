@@ -25,22 +25,88 @@ const Projects = () => {
                 <h2 className={styles.project_title}>
                   NLP for “Fake News” Classification
                 </h2>
-                <p style={{ textAlign: "left", padding: "15px" }}>
-                  Applied SVM, kNN, Naive Bayes, Decision Tree, Adaboost, &
-                  Bagging, achieving 89.58% accuracy to classify articles as
-                  real/fake news.
-                  <ul
-                    style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
-                      color: "#167c9e",
-                      paddingLeft: "20px",
-                    }}
-                  >
-                    <li style={{ marginRight: "6%" }}>Python</li>
-                    <li>Scikit-Learn</li>
-                  </ul>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  Python
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
+                  Applied 6 ML algorithms (SVM, kNN, Naive Bayes, Decision Tree,
+                  Adaboost, & Bagging), achieving 89.58% article classification
+                  accuracy to classify articles as real/fake news
+                  <div>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Python
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      scikit-learn
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "1%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Jupyter Notebook
+                    </Button>
+                  </div>
                 </p>
               </Box>
             </Grid>
@@ -48,12 +114,31 @@ const Projects = () => {
               <Box className={styles.zoom}>
                 <img height="175px" src={shellImage} alt="Shell Project" />
                 <h2 className={styles.project_title}>Shell</h2>
-                <p style={{ textAlign: "left", padding: "15px" }}>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  C
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
                   Implemented a custom Unix shell using C with features such as
                   command parsing, employing foreground and background
                   processing, handling signals, and file redirection.
                   <br />
-                  <ul
+                  {/* <ul
                     style={{
                       display: "flex",
                       lineHeight: "1.2",
@@ -63,7 +148,26 @@ const Projects = () => {
                     }}
                   >
                     <li style={{ marginRight: "6%" }}>C</li>
-                  </ul>
+                  </ul> */}
+                  <Button
+                    style={{
+                      marginTop: "3%",
+                      backgroundColor: "white",
+                      color: "#167c9e",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
+                    }}
+                    className={styles.button}
+                  >
+                    C
+                  </Button>
                 </p>
               </Box>
             </Grid>
@@ -72,24 +176,32 @@ const Projects = () => {
               <Box className={styles.zoom}>
                 <img height="175px" src={searchImage} alt="Search Project" />
                 <h2 className={styles.project_title}>
-                  Search Engine Implementation
+                  Search Engine Indexer & Results
                 </h2>
                 <p style={{ textAlign: "left", padding: "15px" }}>
                   Created an Indexer to parse XML documents and programmed a
-                  Ranking Function to produce search results based on Term
-                  Frequency and Inverse Document Frequency.
+                  Ranking Function to produce relevant search results based on
+                  Term Frequency and Inverse Document Frequency.
                   <br />
-                  <ul
+                  <Button
                     style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
+                      marginTop: "3%",
+                      backgroundColor: "white",
                       color: "#167c9e",
-                      paddingLeft: "20px",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
                     }}
+                    className={styles.button}
                   >
-                    <li style={{ marginRight: "6%" }}>Python</li>
-                  </ul>
+                    Python
+                  </Button>
                 </p>
                 <br />
               </Box>
@@ -108,40 +220,58 @@ const Projects = () => {
                   Implemented Djikstra and Breadth First, computing results
                   based user priorities: cost, time, & directness.
                   <br />
-                  <ul
+                  <Button
                     style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
+                      marginTop: "3%",
+                      backgroundColor: "white",
                       color: "#167c9e",
-                      paddingLeft: "20px",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
                     }}
+                    className={styles.button}
                   >
-                    <li style={{ marginRight: "6%" }}>Java</li>
-                  </ul>
+                    Java
+                  </Button>
                 </p>
               </Box>
             </Grid>
             <Grid item xs={6}>
               <Box className={styles.zoom}>
                 <img height="175px" src={seamImage} alt="Seam Carver Project" />
-                <h2 className={styles.project_title}>Seam Carver</h2>
+                <h2 className={styles.project_title}>
+                  Seam Carver Image Manipulation
+                </h2>
                 <p style={{ textAlign: "left", padding: "15px" }}>
                   Employed dynamic programming to create an image resizing
-                  program that reduces the width of a given image. Stored pixel
-                  importance values in 2D array to minimize data loss.
+                  program that could reduce the width of a given image with
+                  minimal data/feature loss
                   <br />
-                  <ul
+                  <Button
                     style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
+                      marginTop: "3%",
+                      backgroundColor: "white",
                       color: "#167c9e",
-                      paddingLeft: "20px",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
                     }}
+                    className={styles.button}
                   >
-                    <li style={{ marginRight: "6%" }}>Java</li>
-                  </ul>
+                    Java
+                  </Button>
                 </p>
                 <br />
               </Box>
@@ -159,40 +289,59 @@ const Projects = () => {
                   {" >"}82%.
                   <br />
                   <br />
-                  <ul
+                  <Button
                     style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
+                      marginTop: "3%",
+                      backgroundColor: "white",
                       color: "#167c9e",
-                      paddingLeft: "20px",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
                     }}
+                    className={styles.button}
                   >
-                    <li style={{ marginRight: "6%" }}>Java</li>
-                  </ul>
+                    Java
+                  </Button>
                 </p>
               </Box>
             </Grid>
             <Grid item xs={6}>
               <Box className={styles.zoom}>
                 <img height="175px" src={dbImage} alt="Database Project" />
-                <h2 className={styles.project_title}>Database</h2>
+                <h2 className={styles.project_title}>
+                  Multithreaded Database Server
+                </h2>
                 <p style={{ textAlign: "left", padding: "15px" }}>
                   Developed a multithreaded server database, enabling concurrent
-                  client connections. Implemented fine grained locking for
-                  thread management and data protection.
+                  client connections. Each client could add, search, or delete
+                  database records.Implemented fine grained locking for thread
+                  management and data protection.
                   <br />
-                  <ul
+                  <Button
                     style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
+                      marginTop: "3%",
+                      backgroundColor: "white",
                       color: "#167c9e",
-                      paddingLeft: "20px",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
                     }}
+                    className={styles.button}
                   >
-                    <li style={{ marginRight: "6%" }}>C</li>
-                  </ul>
+                    C
+                  </Button>
                 </p>
               </Box>
             </Grid>
@@ -207,20 +356,29 @@ const Projects = () => {
                 />
                 <h2 className={styles.project_title}>Interpreter</h2>
                 <p style={{ textAlign: "left", padding: "15px" }}>
-                  Created an interpreter to read, parse, and process user input.
-                  Utilized extensive pattern matching and error checking.
+                  Created an interpreter to read, parse, and process user
+                  command input. User input was interpreted into executable
+                  code. Utilized extensive pattern matching and error checking.
                   <br />
-                  <ul
+                  <Button
                     style={{
-                      display: "flex",
-                      lineHeight: "1.2",
-                      listStyleType: "circle",
+                      marginTop: "3%",
+                      backgroundColor: "white",
                       color: "#167c9e",
-                      paddingLeft: "20px",
+                      borderRadius: "10%",
+                      borderWidth: "1px",
+                      borderColor: "#167c9e",
+                      borderStyle: "solid",
+                      fontSize: "12px",
+                      // padding: "2%",
+                      fontFamily: "Outfit",
+                      marginRight: "1%",
+                      // width: "20%",
                     }}
+                    className={styles.button}
                   >
-                    <li style={{ marginRight: "6%" }}>Racket</li>
-                  </ul>
+                    Racket
+                  </Button>
                 </p>
               </Box>
             </Grid>
