@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc331c1.css",
-    "main.js": "/static/js/main.c7d87b69.js",
-    "static/media/seam.png": "/static/media/seam.f40a4b51db0bfa582468.png",
-    "static/media/hack.png": "/static/media/hack.13fa24548daa22f20902.png",
-    "static/media/nlp.png": "/static/media/nlp.b2bbdccab1ddf91b5ecd.png",
-    "static/media/uca.png": "/static/media/uca.9750773aade7e5abf607.png",
-    "static/media/arvasit.png": "/static/media/arvasit.26e98eec4cd2d411749d.png",
-    "static/media/shell.png": "/static/media/shell.36ee0ea8cf8ed9c576db.png",
-    "static/media/db.png": "/static/media/db.6cb0bd3104c1ae48c997.png",
-    "static/media/search.png": "/static/media/search.9a53ce5d5c5a11e50906.png",
-    "static/media/planner.png": "/static/media/planner.eef4dbd444ce837a680b.png",
-    "static/media/tree.png": "/static/media/tree.4a102b24da24805331fd.png",
-    "static/media/interpreter.png": "/static/media/interpreter.1fc15b3a67ae6b508464.png",
-    "static/media/fsab.png": "/static/media/fsab.2424da51cca5da9b1528.png",
-    "static/media/git.png": "/static/media/git.3e5c41dc6542f98de829.png",
-    "index.html": "/index.html",
-    "main.dbc331c1.css.map": "/static/css/main.dbc331c1.css.map",
-    "main.c7d87b69.js.map": "/static/js/main.c7d87b69.js.map"
+    "main.css": "/sanamerchant/static/css/main.dbc331c1.css",
+    "main.js": "/sanamerchant/static/js/main.49c82fde.js",
+    "static/media/seam.png": "/sanamerchant/static/media/seam.f40a4b51db0bfa582468.png",
+    "static/media/hack.png": "/sanamerchant/static/media/hack.13fa24548daa22f20902.png",
+    "static/media/nlp.png": "/sanamerchant/static/media/nlp.b2bbdccab1ddf91b5ecd.png",
+    "static/media/uca.png": "/sanamerchant/static/media/uca.9750773aade7e5abf607.png",
+    "static/media/arvasit.png": "/sanamerchant/static/media/arvasit.26e98eec4cd2d411749d.png",
+    "static/media/shell.png": "/sanamerchant/static/media/shell.36ee0ea8cf8ed9c576db.png",
+    "static/media/db.png": "/sanamerchant/static/media/db.6cb0bd3104c1ae48c997.png",
+    "static/media/search.png": "/sanamerchant/static/media/search.9a53ce5d5c5a11e50906.png",
+    "static/media/planner.png": "/sanamerchant/static/media/planner.eef4dbd444ce837a680b.png",
+    "static/media/tree.png": "/sanamerchant/static/media/tree.4a102b24da24805331fd.png",
+    "static/media/interpreter.png": "/sanamerchant/static/media/interpreter.1fc15b3a67ae6b508464.png",
+    "static/media/fsab.png": "/sanamerchant/static/media/fsab.2424da51cca5da9b1528.png",
+    "static/media/git.png": "/sanamerchant/static/media/git.3e5c41dc6542f98de829.png",
+    "index.html": "/sanamerchant/index.html",
+    "main.dbc331c1.css.map": "/sanamerchant/static/css/main.dbc331c1.css.map",
+    "main.49c82fde.js.map": "/sanamerchant/static/js/main.49c82fde.js.map"
   },
   "entrypoints": [
     "static/css/main.dbc331c1.css",
-    "static/js/main.c7d87b69.js"
+    "static/js/main.49c82fde.js"
   ]
 }
