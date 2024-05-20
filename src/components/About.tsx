@@ -1,10 +1,11 @@
-import styles from "../styles/About.module.css";
+// import styles from "../styles/";
 import { Box, Grid, Button, Link } from "@mui/material";
 import { Link as ScrollLink } from "react-scroll";
-import fsabImage from "../images/fsab.png";
-import hackImage from "../images/hack.png";
-import ucaImage from "../images/uca.png";
-import arvasitImage from "../images/arvasit.png";
+import React from "react";
+// import fsabImage from "../images/fsab.png";
+// import hackImage from "../images/hack.png";
+// import ucaImage from "../images/uca.png";
+// import arvasitImage from "../images/arvasit.png";
 
 const About = () => {
   return (
