@@ -1,6 +1,7 @@
 import styles from "../styles/About.module.css";
 import { Box, Grid, Button, Link } from "@mui/material";
 import { Link as ScrollLink } from "react-scroll";
+import React from "react";
 import fsabImage from "../images/fsab.png";
 import hackImage from "../images/hack.png";
 import ucaImage from "../images/uca.png";
@@ -13,14 +14,27 @@ const About = () => {
         <Grid container spacing={3}>
           <Grid item xs={7}>
             <div className={styles.left_text}>
-              <h1 style={{ color: "#167c9e" }}>Hi, I'm Sana Merchant!</h1>
+              <h1 style={{ color: "#167c9e" }}>
+                {/* <h1 style={{ color: "black" }}> */}
+                Hi, I'm Sana Merchant!
+              </h1>
               <p style={{ color: "#167c9e" }}>
+                {/* <p style={{ color: "black" }}> */}
                 Curious | Quick Learner | Team Player | Ambitious
               </p>
-              <p style={{ fontSize: "20px", paddingTop: "2%" }}>
+              <p
+                style={{
+                  fontSize: "20px",
+                  paddingTop: "2%",
+                  fontStyle: "italic",
+                  marginBottom: "1.5%",
+                }}
+              >
                 I like turning caffeine into code.
               </p>
-              <p style={{ fontSize: "20px" }}>
+              <p
+                style={{ fontSize: "20px", marginTop: "0", marginBottom: "0" }}
+              >
                 I'm a sophomore studying Computer Science at Brown University.
                 Experienced in full-stack development and machine learning, I’m
                 also interested in computer vision, generative AI, augmented
@@ -28,13 +42,19 @@ const About = () => {
                 provided a solid foundation, much of my expertise has been honed
                 through independent exploration fueled by curiosity.
               </p>
-              <p style={{ fontSize: "20px", paddingBottom: "1%" }}>
+              <p
+                style={{
+                  fontSize: "20px",
+                  paddingBottom: "3%",
+                  marginTop: "1.5%",
+                }}
+              >
                 I’m passionate about leveraging technology to address societal
                 challenges one commit at a time.{" "}
               </p>
-              <br />
+              {/* <br /> */}
 
-              <div style={{ paddingBottom: "1%" }}>
+              <div className={styles.skills_button}>
                 <Button
                   style={{
                     backgroundColor: "white",
@@ -47,6 +67,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
                     // width: "20%",
                   }}
                   className={styles.button}
@@ -65,6 +86,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
                     // width: "20%",
                   }}
                   className={styles.button}
@@ -83,6 +105,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
                     // width: "20%",
                   }}
                   className={styles.button}
@@ -101,6 +124,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
                     // width: "20%",
                   }}
                   className={styles.button}
@@ -119,6 +143,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
 
                     // width: "20%",
                   }}
@@ -138,15 +163,12 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
-
-                    // width: "20%",
+                    cursor: "default",
                   }}
                   className={styles.button}
                 >
                   JavaScript
                 </Button>
-              </div>
-              <div style={{ paddingBottom: "5%" }}>
                 <Button
                   style={{
                     backgroundColor: "white",
@@ -156,16 +178,15 @@ const About = () => {
                     borderColor: "#167c9e",
                     borderStyle: "solid",
                     fontSize: "12px",
-                    // padding: "2%",
                     fontFamily: "Outfit",
-                    marginRight: "1%",
-
-                    // width: "20%",
+                    cursor: "default",
                   }}
                   className={styles.button}
                 >
                   TypeScript
                 </Button>
+              </div>
+              <div style={{ paddingBottom: "1%" }}>
                 <Button
                   style={{
                     backgroundColor: "white",
@@ -178,6 +199,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
 
                     // width: "20%",
                   }}
@@ -197,6 +219,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
 
                     // width: "20%",
                   }}
@@ -216,6 +239,7 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
+                    cursor: "default",
 
                     // width: "20%",
                   }}
@@ -235,12 +259,166 @@ const About = () => {
                     // padding: "2%",
                     fontFamily: "Outfit",
                     marginRight: "1%",
-
+                    cursor: "default",
                     // width: "20%",
                   }}
                   className={styles.button}
                 >
                   Jupyter Notebook
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  MongoDB
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  scikit-learn
+                </Button>
+              </div>
+              <div style={{ paddingBottom: "6%" }}>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  Tensorflow
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  Figma
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  OpenCV
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  Firestore
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  Vercel
+                </Button>
+                <Button
+                  style={{
+                    backgroundColor: "white",
+                    color: "#167c9e",
+                    borderRadius: "10%",
+                    borderWidth: "1px",
+                    borderColor: "#167c9e",
+                    borderStyle: "solid",
+                    fontSize: "12px",
+                    // padding: "2%",
+                    fontFamily: "Outfit",
+                    marginRight: "1%",
+                    cursor: "default",
+                    // width: "20%",
+                  }}
+                  className={styles.button}
+                >
+                  Power BI
                 </Button>
               </div>
               <ScrollLink to="projects" smooth={true} duration={500}>
@@ -261,7 +439,7 @@ const About = () => {
               <a
                 style={{ textDecoration: "none" }}
                 target="_blank"
-                href="https://drive.google.com/file/d/12OlUldnCOzIZxElj3o6gjMR6wqIgVFir/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Hkvi6q-5uOn4qYawB3tAZgIa_6b9lZBM/view?usp=sharing"
               >
                 <Button
                   style={{
@@ -288,6 +466,8 @@ const About = () => {
               <br />
               <br />
               <br />
+              {/* <br /> */}
+              {/* <br />
               <br />
               <br />
               <br />
@@ -295,9 +475,7 @@ const About = () => {
               <br />
               <br />
               <br />
-              <br />
-              <br />
-              <br />
+              <br /> */}
               <ol className={styles.timeline}>
                 <li className={styles.timeline_item}>
                   <div className={styles.timeline_item_icon}>
@@ -312,8 +490,16 @@ const About = () => {
                     >
                       <h2 className={styles.headerlink}>Full Stack at Brown</h2>
                     </a>
-                    <p>Website Developer</p>
-                    <p>September 2023 - Present</p>
+                    <div className={styles.title}>
+                      <p>Project Manager</p>
+                    </div>
+                    <p style={{ marginBottom: "10%" }}>
+                      February 2024 - Present
+                    </p>
+                    <div className={styles.title}>
+                      <p>Website Developer</p>
+                    </div>
+                    <p>September 2023 - January 2024</p>
                     <br />
                     <br />
                     <br />
@@ -333,8 +519,16 @@ const About = () => {
                     >
                       <h2 className={styles.headerlink}>Hack @ Brown</h2>
                     </a>
-                    <p>Front End Developer</p>
-                    <p>September 2023 - Present</p>
+                    <div className={styles.title}>
+                      <p>Co-Director</p>
+                    </div>
+                    <p style={{ marginBottom: "10%" }}>
+                      February 2024 - Present
+                    </p>
+                    <div className={styles.title}>
+                      <p>Front End Developer</p>
+                    </div>
+                    <p>September 2023 - March 2024</p>
                     <br />
                     <br />
                     <br />
@@ -356,8 +550,10 @@ const About = () => {
                         University of Central Asia
                       </h2>
                     </a>
-                    <p>Data Analyst</p>
-                    <p>June - October 2023</p>
+                    <div className={styles.title}>
+                      <p>Data Analyst</p>
+                    </div>
+                    <p>June 2023 - October 2023</p>
                     <br />
                     <br />
                     <br />
@@ -381,7 +577,9 @@ const About = () => {
                     >
                       <h2 className={styles.headerlink}>Arvasit Technolabs</h2>
                     </a>
-                    <p>Software Engineer Intern</p>
+                    <div className={styles.title}>
+                      <p>Software Engineer Intern</p>
+                    </div>
                     <p>May - June 2023</p>
                   </div>
                 </li>
