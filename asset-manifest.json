@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/sanamerchant/static/css/main.51a61283.css",
-    "main.js": "/sanamerchant/static/js/main.ac972444.js",
+    "main.js": "/sanamerchant/static/js/main.8888de0c.js",
+    "static/media/feature.png": "/sanamerchant/static/media/feature.48718c9d6d84fe318c3c.png",
+    "static/media/cam_geo.png": "/sanamerchant/static/media/cam_geo.798ced52eb08f6cb45e5.png",
     "static/media/seam.png": "/sanamerchant/static/media/seam.f40a4b51db0bfa582468.png",
+    "static/media/maps.png": "/sanamerchant/static/media/maps.3bc4f1350320529aa81e.png",
+    "static/media/racecar.png": "/sanamerchant/static/media/racecar.4f336731ff4d29c84d9b.png",
     "static/media/hack.png": "/sanamerchant/static/media/hack.13fa24548daa22f20902.png",
     "static/media/nlp.png": "/sanamerchant/static/media/nlp.b2bbdccab1ddf91b5ecd.png",
     "static/media/uca.png": "/sanamerchant/static/media/uca.9750773aade7e5abf607.png",
@@ -17,10 +21,10 @@
     "static/media/git.png": "/sanamerchant/static/media/git.3e5c41dc6542f98de829.png",
     "index.html": "/sanamerchant/index.html",
     "main.51a61283.css.map": "/sanamerchant/static/css/main.51a61283.css.map",
-    "main.ac972444.js.map": "/sanamerchant/static/js/main.ac972444.js.map"
+    "main.8888de0c.js.map": "/sanamerchant/static/js/main.8888de0c.js.map"
   },
   "entrypoints": [
     "static/css/main.51a61283.css",
-    "static/js/main.ac972444.js"
+    "static/js/main.8888de0c.js"
   ]
 }
