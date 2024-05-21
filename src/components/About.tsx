@@ -1,4 +1,4 @@
-// import styles from "../styles/";
+import styles from "../About.module.css";
 import { Box, Grid, Button, Link } from "@mui/material";
 import { Link as ScrollLink } from "react-scroll";
 import React from "react";
