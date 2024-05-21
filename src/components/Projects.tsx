@@ -9,6 +9,11 @@ import plannerImage from "../images/planner.png";
 import treeImage from "../images/tree.png";
 import interpreterImage from "../images/interpreter.png";
 import dbImage from "../images/db.png";
+import feature from "../images/feature.png";
+import camGeoImage from "../images/cam_geo.png";
+// import cnnImage from "../images/cnn.png";
+import raceCarImage from "../images/racecar.png";
+import maps from "../images/maps.png";
 
 const Projects = () => {
   return (
@@ -19,6 +24,97 @@ const Projects = () => {
         </h1>
         <div className={styles.outline}>
           <Grid container spacing={3}>
+            <Grid item xs={6}>
+              <Box className={styles.zoom}>
+                <img height="175px" src={raceCarImage} alt="NLP Project" />
+                <h2 className={styles.project_title}>
+                  AI for Autonomous Race Car Simulation
+                </h2>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  Python
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
+                  Implemented a CNN to play a race car simulation, training on
+                  self-collected data. Reached 81% steering direction
+                  classification accuracy.
+                  <div>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Python
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Tensorflow
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "1%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Pillow
+                    </Button>
+                  </div>
+                </p>
+              </Box>
+            </Grid>
             <Grid item xs={6}>
               <Box className={styles.zoom}>
                 <img height="175px" src={nlpImage} alt="NLP Project" />
@@ -110,6 +206,286 @@ const Projects = () => {
                 </p>
               </Box>
             </Grid>
+            <Grid item xs={6}>
+              <Box className={styles.zoom}>
+                <img height="175px" src={feature} alt="NLP Project" />
+                <h2 className={styles.project_title}>
+                  Multi-View Correspondence with Feature Matching
+                </h2>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  Python
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
+                  Developed an algorithm for local feature matching, leveraging
+                  SIFT feature descriptors to accurately align multiple
+                  perspectives of complex real-world scenes.
+                  <div>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Python
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      scikit-learn
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "1%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Numpy
+                    </Button>
+                  </div>
+                </p>
+              </Box>
+            </Grid>
+            <Grid item xs={6}>
+              <Box className={styles.zoom}>
+                <img height="175px" src={maps} alt="Maps Project" />
+                <h2 className={styles.project_title}>
+                  Geographic Information Visualizer
+                </h2>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  Python
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
+                  Delivered an website to display historical redlining data,
+                  storing user-specific info in Google Firebase. Created API
+                  endpoints to fetch data from backend; enabling a dynamic React
+                  frontend
+                  <div>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      React
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Firestore
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "1%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Mapbox
+                    </Button>
+                  </div>
+                </p>
+              </Box>
+            </Grid>
+
+            <Grid item xs={6}>
+              <Box className={styles.zoom}>
+                <img
+                  height="175px"
+                  src={camGeoImage}
+                  alt="Camera Geometry Project"
+                />
+                <h2 className={styles.project_title}>
+                  Advanced Camera Geometry and 3D Reconstruction
+                </h2>
+                {/* <p
+                  style={{
+                    display: "flex",
+                    // lineHeight: "1.2",
+                    // listStyleType: "circle",
+                    color: "#167c9e",
+                    // paddingLeft: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    marginTop: "2%",
+                  }}
+                >
+                  Python
+                </p> */}
+                <p
+                  style={{
+                    textAlign: "left",
+                    padding: "15px",
+                  }}
+                >
+                  Engineered an algorithm to estimate the camera projection
+                  matrix and compute the fundamental matrix for epipolar
+                  geometry to enable 3D object rendering from 2D inputs.
+                  <div>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Python
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "2%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      OpenCV
+                    </Button>
+                    <Button
+                      style={{
+                        marginTop: "3%",
+                        backgroundColor: "white",
+                        color: "#167c9e",
+                        borderRadius: "10%",
+                        borderWidth: "1px",
+                        borderColor: "#167c9e",
+                        borderStyle: "solid",
+                        fontSize: "12px",
+                        // padding: "2%",
+                        fontFamily: "Outfit",
+                        marginRight: "1%",
+                        // width: "20%",
+                      }}
+                      className={styles.button}
+                    >
+                      Numpy
+                    </Button>
+                  </div>
+                </p>
+              </Box>
+            </Grid>
+
             <Grid item xs={6}>
               <Box className={styles.zoom}>
                 <img height="175px" src={shellImage} alt="Shell Project" />

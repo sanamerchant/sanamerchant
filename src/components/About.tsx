@@ -30,7 +30,7 @@ const About = () => {
                   marginBottom: "1.5%",
                 }}
               >
-                I like turning caffeine into code.
+                I turn caffeine into code.
               </p>
               <p
                 style={{ fontSize: "20px", marginTop: "0", marginBottom: "0" }}
@@ -479,6 +479,33 @@ const About = () => {
               <ol className={styles.timeline}>
                 <li className={styles.timeline_item}>
                   <div className={styles.timeline_item_icon}>
+                    <img height="30px" src={hackImage} alt="Profile Picture" />
+                  </div>
+                  <div className={styles.timeline_item_content}>
+                    <br />
+                    <a
+                      style={{ textDecoration: "none" }}
+                      target="_blank"
+                      href="https://2024.hackatbrown.org"
+                    >
+                      <h2 className={styles.headerlink}>Hack @ Brown</h2>
+                    </a>
+                    <div className={styles.title}>
+                      <p>Co-Director</p>
+                    </div>
+                    <p style={{ marginBottom: "10%" }}>April 2024 - Present</p>
+                    <div className={styles.title}>
+                      <p>Front End Developer</p>
+                    </div>
+                    <p>September 2023 - March 2024</p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </div>
+                </li>
+                <li className={styles.timeline_item}>
+                  <div className={styles.timeline_item_icon}>
                     <img height="30px" src={fsabImage} alt="Profile Picture" />
                   </div>
                   <div className={styles.timeline_item_content}>
@@ -494,7 +521,7 @@ const About = () => {
                       <p>Project Manager</p>
                     </div>
                     <p style={{ marginBottom: "10%" }}>
-                      February 2024 - Present
+                      February 2024 - April 2024
                     </p>
                     <div className={styles.title}>
                       <p>Website Developer</p>
@@ -506,35 +533,7 @@ const About = () => {
                     <br />
                   </div>
                 </li>
-                <li className={styles.timeline_item}>
-                  <div className={styles.timeline_item_icon}>
-                    <img height="30px" src={hackImage} alt="Profile Picture" />
-                  </div>
-                  <div className={styles.timeline_item_content}>
-                    <br />
-                    <a
-                      style={{ textDecoration: "none" }}
-                      target="_blank"
-                      href="https://2024.hackatbrown.org"
-                    >
-                      <h2 className={styles.headerlink}>Hack @ Brown</h2>
-                    </a>
-                    <div className={styles.title}>
-                      <p>Co-Director</p>
-                    </div>
-                    <p style={{ marginBottom: "10%" }}>
-                      February 2024 - Present
-                    </p>
-                    <div className={styles.title}>
-                      <p>Front End Developer</p>
-                    </div>
-                    <p>September 2023 - March 2024</p>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                  </div>
-                </li>
+
                 <li className={styles.timeline_item}>
                   <div className={styles.timeline_item_icon}>
                     <img height="30px" src={ucaImage} alt="Profile Picture" />
@@ -580,7 +579,7 @@ const About = () => {
                     <div className={styles.title}>
                       <p>Software Engineer Intern</p>
                     </div>
-                    <p>May - June 2023</p>
+                    <p>May 2023 - June 2023</p>
                   </div>
                 </li>
               </ol>
