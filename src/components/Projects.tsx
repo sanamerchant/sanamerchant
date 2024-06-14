@@ -696,7 +696,7 @@ const Projects = () => {
                 <p style={{ textAlign: "left", padding: "15px" }}>
                   Developed a multithreaded server database, enabling concurrent
                   client connections. Each client could add, search, or delete
-                  database records.Implemented fine grained locking for thread
+                  database records. Implemented fine grained locking for thread
                   management and data protection.
                   <br />
                   <Button
